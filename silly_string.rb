@@ -15,13 +15,13 @@ puts "MY FAVORITE WORD IS KATE".downcase
 
 phrase = "IM NOT SHOUTING"
 
-lowercased_phrase = phrase # Put a . after phrase and use a String method.
+lowercased_phrase = phrase.downcase # Put a . after phrase and use a String method.
 
 puts lowercased_phrase
 
 # Challenge 4: Count how many letters are in that big_word
 
-big_word = "supercalifragilisticexpialidocious"
+big_word = "supercalifragilisticexpialidocious".length
 
 letter_count = big_word # Put a . after big_word and use a String method.
 
